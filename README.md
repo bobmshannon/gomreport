@@ -1,4 +1,4 @@
-# gomreport
+# gomreport [![CircleCI](https://circleci.com/gh/bobmshannon/gomreport.svg?style=svg)](https://circleci.com/gh/bobmshannon/gomreport)
 A go library for programmatically interacting with Dell OpenManage's omreport utility. For documentation on how to use this library, see [godoc](https://godoc.org/github.com/bobmshannon/gomreport).
 
 ## Compatibillity
