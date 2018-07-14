@@ -50,6 +50,7 @@ type OMReport struct {
 	sha256Checksum []byte
 }
 
+// Config contains configurable parameters that are used to construct a new OMReporter.
 type Config struct {
 	// Full path to the omcliproxy binary.
 	OMCLIProxyPath string
