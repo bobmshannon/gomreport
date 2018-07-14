@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <Chassis oid="2" status="2" name="2" objtype="17" index="0" display="Main System Chassis">
+        <FanProbeList poid="2" count="2">
+            <FanProbe oid="134217861" status="2" poid="2" pobjtype="17" index="0">
+                <SubType>3</SubType>
+                <ProbeReading unit="RPM">5880</ProbeReading>
+                <ProbeThresholds>
+                    <UNRThreshold>-2147483648</UNRThreshold>
+                    <UCThreshold>-2147483648</UCThreshold>
+                    <UNCThreshold>-2147483648</UNCThreshold>
+                    <LNCThreshold>3360</LNCThreshold>
+                    <LCThreshold>2880</LCThreshold>
+                    <LNRThreshold>-2147483648</LNRThreshold>
+                </ProbeThresholds>
+                <ProbeStatus>2</ProbeStatus>
+                <Capabilities>
+                    <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+                    <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+                    <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+                    <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+                </Capabilities>
+                <ProbeLocation>Chassis Fan1A</ProbeLocation>
+            </FanProbe>
+            <FanProbe oid="134217862" status="2" poid="2" pobjtype="17" index="1">
+                <SubType>3</SubType>
+                <ProbeReading unit="RPM">7560</ProbeReading>
+                <ProbeThresholds>
+                    <UNRThreshold>-2147483648</UNRThreshold>
+                    <UCThreshold>-2147483648</UCThreshold>
+                    <UNCThreshold>-2147483648</UNCThreshold>
+                    <LNCThreshold>4440</LNCThreshold>
+                    <LCThreshold>3720</LCThreshold>
+                    <LNRThreshold>-2147483648</LNRThreshold>
+                </ProbeThresholds>
+                <ProbeStatus>2</ProbeStatus>
+                <Capabilities>
+                    <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+                    <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+                    <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+                    <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+                </Capabilities>
+                <ProbeLocation>Chassis Fan2</ProbeLocation>
+            </FanProbe>
+        </FanProbeList>
+        <ObjStatus>2</ObjStatus>
+    </Chassis>
+    <SMStatus>0</SMStatus>
+    <OMACMDNEW>0</OMACMDNEW>
+</OMA>

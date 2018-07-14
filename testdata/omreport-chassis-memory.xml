@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <MemoryInfo oid="33554433" status="2">
+        <TotalPhysMemorySize unit="KB">263858184</TotalPhysMemorySize>
+        <TotalPhysMemorySizeMB unit="MB">257674</TotalPhysMemorySizeMB>
+        <AvailPhysMemorySize unit="KB">35390420</AvailPhysMemorySize>
+        <AvailPhysMemorySizeMB unit="MB">34561</AvailPhysMemorySizeMB>
+        <TotalPageFileSize unit="KB">33554428</TotalPageFileSize>
+        <AvailPageFileSize unit="KB">33114120</AvailPageFileSize>
+        <TotalVirtualMemorySize unit="KB">0</TotalVirtualMemorySize>
+        <AvailVirtualMemorySize unit="KB">0</AvailVirtualMemorySize>
+    </MemoryInfo>
+    <MemoryArrayList count="1">
+        <MemoryArray oid="83886094" status="2" index="0">
+            <Location>3</Location>
+            <Use>3</Use>
+            <ErrCorrType>6</ErrCorrType>
+            <MaxSize unit="KB">1073741824</MaxSize>
+            <MaxSizeMB unit="MB">1048576</MaxSizeMB>
+            <extMaxSize unit="MB">0</extMaxSize>
+            <NumSocketsTotal>8</NumSocketsTotal>
+            <NumSocketsInUse>8</NumSocketsInUse>
+            <NRThreshold>32767</NRThreshold>
+            <CThreshold>1296</CThreshold>
+            <NCThreshold>656</NCThreshold>
+            <MemPortConnList count="8">
+                <PortGeneric oid="83886095" status="2" index="0">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>A1</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886097" status="2" index="1">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>A2</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886099" status="2" index="2">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>A3</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886101" status="2" index="3">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>A4</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886103" status="2" index="4">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>B1</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886105" status="2" index="5">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>B2</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886107" status="2" index="6">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>B3</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+                <PortGeneric oid="83886109" status="2" index="7">
+                    <ConnectorType>9</ConnectorType>
+                    <SecuritySettings>2</SecuritySettings>
+                    <SmbiosConnType>255</SmbiosConnType>
+                    <ExtName>B4</ExtName>
+                    <MemoryDevice>
+                        <Size unit="KB">33554432</Size>
+                        <SizeMB unit="MB">32768</SizeMB>
+                        <MemDevType>26</MemDevType>
+                        <TypeDetail>8320</TypeDetail>
+                        <extendedSize unit="MB">32768</extendedSize>
+                    </MemoryDevice>
+                    <IsOccupied>true</IsOccupied>
+                </PortGeneric>
+            </MemPortConnList>
+            <InstalledSizeMBCumulative unit="MB">262144</InstalledSizeMBCumulative>
+        </MemoryArray>
+    </MemoryArrayList>
+    <MaxInstalledSizeMBCumulative unit="MB">262144</MaxInstalledSizeMBCumulative>
+    <MaxSizeMBCumulative unit="MB">1048576</MaxSizeMBCumulative>
+    <ObjStatus>2</ObjStatus>
+    <SMStatus>0</SMStatus>
+    <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:0/MemDevObj" instance="0">
+        <totalWidth>72</totalWidth>
+        <dataBusWidth>64</dataBusWidth>
+        <size>33554432</size>
+        <formFactor>9</formFactor>
+        <deviceSet>1</deviceSet>
+        <type>26</type>
+        <typeDetail value="8320" count="14">
+            <Other>false</Other>
+            <Unknown>false</Unknown>
+            <FastPaged>false</FastPaged>
+            <StaticColumn>false</StaticColumn>
+            <PseudoStatic>false</PseudoStatic>
+            <RAMBUS>false</RAMBUS>
+            <Synchronous>true</Synchronous>
+            <CMOS>false</CMOS>
+            <EDO>false</EDO>
+            <WindowDRAM>false</WindowDRAM>
+            <CacheDRAM>false</CacheDRAM>
+            <NonVolatile>false</NonVolatile>
+            <RegisteredBuffered>true</RegisteredBuffered>
+            <UnbufferedUnregistered>false</UnbufferedUnregistered>
+        </typeDetail>
+        <speed>2400</speed>
+        <errCount>0</errCount>
+        <sbErrCount>0</sbErrCount>
+        <mbErrCount>0</mbErrCount>
+        <sno>
+            <size>0</size>
+            <offset>0</offset>
+        </sno>
+        <DeviceLocator>A1</DeviceLocator>
+        <BankLocator></BankLocator>
+        <failureModes>0</failureModes>
+        <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+        <SerialNumber>51E250EA</SerialNumber>
+        <AssetTag>00172130</AssetTag>
+        <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+        <SpeedAsString>0.42 ns</SpeedAsString>
+        <AMBManufacturer isnull="true"></AMBManufacturer>
+        <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+        <dimmRank>2</dimmRank>
+        <extendedSize>32768</extendedSize>
+    </MemDevObj>
+    <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:1/MemDevObj" instance="0">
+        <totalWidth>72</totalWidth>
+        <dataBusWidth>64</dataBusWidth>
+        <size>33554432</size>
+        <formFactor>9</formFactor>
+        <deviceSet>1</deviceSet>
+        <type>26</type>
+        <typeDetail value="8320" count="14">
+            <Other>false</Other>
+            <Unknown>false</Unknown>
+            <FastPaged>false</FastPaged>
+            <StaticColumn>false</StaticColumn>
+            <PseudoStatic>false</PseudoStatic>
+            <RAMBUS>false</RAMBUS>
+            <Synchronous>true</Synchronous>
+            <CMOS>false</CMOS>
+            <EDO>false</EDO>
+            <WindowDRAM>false</WindowDRAM>
+            <CacheDRAM>false</CacheDRAM>
+            <NonVolatile>false</NonVolatile>
+            <RegisteredBuffered>true</RegisteredBuffered>
+            <UnbufferedUnregistered>false</UnbufferedUnregistered>
+        </typeDetail>
+        <speed>2400</speed>
+        <errCount>0</errCount>
+        <sbErrCount>0</sbErrCount>
+        <mbErrCount>0</mbErrCount>
+        <sno>
+            <size>0</size>
+            <offset>0</offset>
+        </sno>
+        <DeviceLocator>A2</DeviceLocator>
+        <BankLocator></BankLocator>
+        <failureModes>0</failureModes>
+        <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+        <SerialNumber>51E250F0</SerialNumber>
+        <AssetTag>00172130</AssetTag>
+        <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+        <SpeedAsString>0.42 ns</SpeedAsString>
+        <AMBManufacturer isnull="true"></AMBManufacturer>
+        <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+        <dimmRank>2</dimmRank>
+        <extendedSize>32768</extendedSize>
+    </MemDevObj>
+    <ObjCount>2</ObjCount>
+    <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+</OMA>

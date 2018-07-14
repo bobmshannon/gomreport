@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <Chassis oid="2" status="4" name="2" objtype="17" index="0" display="Main System Chassis">
+        <Redundancy oid="134217814" status="4">
+            <RedunStatus>6</RedunStatus>
+            <RedunCount>0</RedunCount>
+            <RedunName>System Board PS Redundancy</RedunName>
+        </Redundancy>
+        <PowerSupplyList count="2">
+            <PowerSupply oid="134217815" status="2" index="0">
+                <InputRatedWatts>12600</InputRatedWatts>
+                <OutputWatts>11000</OutputWatts>
+                <InputVolts>-2147483648</InputVolts>
+                <FirmWareVersion>07.12.52</FirmWareVersion>
+                <PSACOn>true</PSACOn>
+                <PSSwitchOn>true</PSSwitchOn>
+                <PSPOK>true</PSPOK>
+                <PSOn>true</PSOn>
+                <PSFanFail>false</PSFanFail>
+                <Type>9</Type>
+                <PSState>
+                    <PSPresenceDetected>true</PSPresenceDetected>
+                    <PSFailureDetected>false</PSFailureDetected>
+                    <PSPredictiveFailure>false</PSPredictiveFailure>
+                    <PSACLost>false</PSACLost>
+                    <PSACLostorOutofRange>false</PSACLostorOutofRange>
+                    <PSACPresentorOutofRange>false</PSACPresentorOutofRange>
+                    <PSConfigError>false</PSConfigError>
+                </PSState>
+                <PSCfgErrType>0</PSCfgErrType>
+                <PSOnlineStatus>true</PSOnlineStatus>
+                <PSLocation>PS1 Status</PSLocation>
+                <PMCapable>true</PMCapable>
+            </PowerSupply>
+            <PowerSupply oid="134217816" status="4" index="1">
+                <InputRatedWatts>12320</InputRatedWatts>
+                <OutputWatts>11000</OutputWatts>
+                <InputVolts>-2147483648</InputVolts>
+                <FirmWareVersion>07.12.52</FirmWareVersion>
+                <PSACOn>false</PSACOn>
+                <PSSwitchOn>false</PSSwitchOn>
+                <PSPOK>false</PSPOK>
+                <PSOn>false</PSOn>
+                <PSFanFail>false</PSFanFail>
+                <Type>9</Type>
+                <PSState>
+                    <PSPresenceDetected>true</PSPresenceDetected>
+                    <PSFailureDetected>false</PSFailureDetected>
+                    <PSPredictiveFailure>false</PSPredictiveFailure>
+                    <PSACLost>true</PSACLost>
+                    <PSACLostorOutofRange>false</PSACLostorOutofRange>
+                    <PSACPresentorOutofRange>false</PSACPresentorOutofRange>
+                    <PSConfigError>false</PSConfigError>
+                </PSState>
+                <PSCfgErrType>0</PSCfgErrType>
+                <PSOnlineStatus>false</PSOnlineStatus>
+                <PSLocation>PS2 Status</PSLocation>
+                <PMCapable>true</PMCapable>
+            </PowerSupply>
+        </PowerSupplyList>
+        <ObjStatus>4</ObjStatus>
+    </Chassis>
+    <SMStatus>0</SMStatus>
+</OMA>

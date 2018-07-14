@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <BatteryObj ons="Root/MainSystemChassis/BatteryObj" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+        <oid>134217771</oid>
+        <objtype>27</objtype>
+        <objstatus>2</objstatus>
+        <subType>22</subType>
+        <probeReading>4</probeReading>
+        <probeThresholds>
+            <unrThreshold>15748048</unrThreshold>
+            <ucThreshold>0</ucThreshold>
+            <uncThreshold>-2147483648</uncThreshold>
+            <lncThreshold>-2147483648</lncThreshold>
+            <lcThreshold>-2147483648</lcThreshold>
+            <lnrThreshold>-2147483648</lnrThreshold>
+        </probeThresholds>
+        <probePolling>
+            <isCustom>false</isCustom>
+            <isStarted>false</isStarted>
+            <startDelay>0</startDelay>
+            <PollingIntervalSecs>0</PollingIntervalSecs>
+            <runDelay>0</runDelay>
+            <counter>1096045407</counter>
+        </probePolling>
+        <probeStatus>2</probeStatus>
+        <probeCapabilities>0</probeCapabilities>
+        <ProbeLocation>System Board CMOS Battery</ProbeLocation>
+        <ReAliasedName isnull="true"></ReAliasedName>
+        <eventCapability>true</eventCapability>
+        <reservedAlignmentarray count="2">
+            <reservedAlignment index="0">0</reservedAlignment>
+            <reservedAlignment index="1">0</reservedAlignment>
+        </reservedAlignmentarray>
+    </BatteryObj>
+    <ObjCount>1</ObjCount>
+    <computedobjstatus strval="OK">2</computedobjstatus>
+    <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+</OMA>

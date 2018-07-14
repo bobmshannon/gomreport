@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <Chassis oid="2" status="2" name="2" objtype="17" index="0" display="Main System Chassis">
+        <TemperatureProbeList poid="2" count="4">
+            <TemperatureProbe oid="134217731" status="2" poid="2" pobjtype="17" index="0">
+                <SubType>5</SubType>
+                <ProbeReading>180</ProbeReading>
+                <ProbeThresholds>
+                    <UNRThreshold>-2147483648</UNRThreshold>
+                    <UCThreshold>470</UCThreshold>
+                    <UNCThreshold>420</UNCThreshold>
+                    <LNCThreshold>30</LNCThreshold>
+                    <LCThreshold>-70</LCThreshold>
+                    <LNRThreshold>-2147483648</LNRThreshold>
+                </ProbeThresholds>
+                <ProbeStatus>2</ProbeStatus>
+                <Capabilities>
+                    <ProbeUNCDefSetEnabled>true</ProbeUNCDefSetEnabled>
+                    <ProbeLNCDefSetEnabled>true</ProbeLNCDefSetEnabled>
+                    <ProbeUNCSetEnabled>true</ProbeUNCSetEnabled>
+                    <ProbeLNCSetEnabled>true</ProbeLNCSetEnabled>
+                </Capabilities>
+                <ProbeLocation>System Board Inlet Temp</ProbeLocation>
+            </TemperatureProbe>
+        </TemperatureProbeList>
+        <ObjStatus>2</ObjStatus>
+    </Chassis>
+    <SMStatus>0</SMStatus>
+    <OMACMDNEW>0</OMACMDNEW>
+</OMA>

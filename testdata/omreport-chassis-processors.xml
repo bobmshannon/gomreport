@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <ProcessorList count="2">
+        <ProcessorConn oid="83886082" status="2" index="0">
+            <ConnectorType>43</ConnectorType>
+            <SecuritySettings>2</SecuritySettings>
+            <SmbiosConnType>255</SmbiosConnType>
+            <ExtName>CPU1</ExtName>
+            <IsOccupied>true</IsOccupied>
+            <DevProcessor oid="83886083" status="2">
+                <ExtName>CPU1</ExtName>
+                <ProcessorType>3</ProcessorType>
+                <Family>179</Family>
+                <MaxSpeed unit="MHz">4000</MaxSpeed>
+                <CurSpeed unit="MHz">2400</CurSpeed>
+                <ExtClockSpeed unit="MHz">9600</ExtClockSpeed>
+                <Voltage unit="mV">1300</Voltage>
+                <ProcessorStatus>3</ProcessorStatus>
+                <Upgrade>43</Upgrade>
+                <Manufacturer>Intel</Manufacturer>
+                <Version>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz Stepping 1</Version>
+                <CoreCount>14</CoreCount>
+                <CoreEnabledCount>14</CoreEnabledCount>
+                <ThreadCount>28</ThreadCount>
+                <Model>Model 79</Model>
+                <Stepping>Stepping 1</Stepping>
+                <Brand>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz</Brand>
+                <CapableOf64bit>true</CapableOf64bit>
+                <CapableOfVT>true</CapableOfVT>
+                <CapableOfDBS>true</CapableOfDBS>
+                <CapableOfNX>true</CapableOfNX>
+                <CapableOfHT>true</CapableOfHT>
+                <CapableOfTRB>true</CapableOfTRB>
+                <EnabledVT>true</EnabledVT>
+                <EnabledDBS>false</EnabledDBS>
+                <EnabledNX>true</EnabledNX>
+                <EnabledHT>true</EnabledHT>
+                <EnabledTRB>true</EnabledTRB>
+                <Enabled64bit>true</Enabled64bit>
+                <characteristics>252</characteristics>
+                <extendedCharacteristics>63</extendedCharacteristics>
+                <extendedStates>61</extendedStates>
+            </DevProcessor>
+        </ProcessorConn>
+        <ProcessorConn oid="83886087" status="2" index="1">
+            <ConnectorType>43</ConnectorType>
+            <SecuritySettings>2</SecuritySettings>
+            <SmbiosConnType>255</SmbiosConnType>
+            <ExtName>CPU2</ExtName>
+            <IsOccupied>true</IsOccupied>
+            <DevProcessor oid="83886088" status="2">
+                <ExtName>CPU2</ExtName>
+                <ProcessorType>3</ProcessorType>
+                <Family>179</Family>
+                <MaxSpeed unit="MHz">4000</MaxSpeed>
+                <CurSpeed unit="MHz">2400</CurSpeed>
+                <ExtClockSpeed unit="MHz">9600</ExtClockSpeed>
+                <Voltage unit="mV">1300</Voltage>
+                <ProcessorStatus>3</ProcessorStatus>
+                <Upgrade>43</Upgrade>
+                <Manufacturer>Intel</Manufacturer>
+                <Version>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz Stepping 1</Version>
+                <CoreCount>14</CoreCount>
+                <CoreEnabledCount>14</CoreEnabledCount>
+                <ThreadCount>28</ThreadCount>
+                <Model>Model 79</Model>
+                <Stepping>Stepping 1</Stepping>
+                <Brand>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz</Brand>
+                <CapableOf64bit>true</CapableOf64bit>
+                <CapableOfVT>true</CapableOfVT>
+                <CapableOfDBS>true</CapableOfDBS>
+                <CapableOfNX>true</CapableOfNX>
+                <CapableOfHT>true</CapableOfHT>
+                <CapableOfTRB>true</CapableOfTRB>
+                <EnabledVT>true</EnabledVT>
+                <EnabledDBS>false</EnabledDBS>
+                <EnabledNX>true</EnabledNX>
+                <EnabledHT>true</EnabledHT>
+                <EnabledTRB>true</EnabledTRB>
+                <Enabled64bit>true</Enabled64bit>
+                <characteristics>252</characteristics>
+                <extendedCharacteristics>63</extendedCharacteristics>
+                <extendedStates>61</extendedStates>
+            </DevProcessor>
+        </ProcessorConn>
+    </ProcessorList>
+    <CPUStatusProbeList poid="1" count="2">
+        <CPUStatusProbe oid="134217751" status="2" poid="2" pobjtype="17" index="0">
+            <SubType>18</SubType>
+            <ProcessorStatus>
+                <CPUStatusIErr>false</CPUStatusIErr>
+                <CPUStatusThermTrip>false</CPUStatusThermTrip>
+                <CPUStatusConfigErr>false</CPUStatusConfigErr>
+                <CPUStatusPresenceDetected>true</CPUStatusPresenceDetected>
+                <CPUStatusDisabled>false</CPUStatusDisabled>
+                <CPUStatusTermPresenceDetected>false</CPUStatusTermPresenceDetected>
+                <CPUStatusThrottled>false</CPUStatusThrottled>
+            </ProcessorStatus>
+            <ProbeLocation>CPU1</ProbeLocation>
+        </CPUStatusProbe>
+        <CPUStatusProbe oid="134217752" status="2" poid="2" pobjtype="17" index="1">
+            <SubType>18</SubType>
+            <ProcessorStatus>
+                <CPUStatusIErr>false</CPUStatusIErr>
+                <CPUStatusThermTrip>false</CPUStatusThermTrip>
+                <CPUStatusConfigErr>false</CPUStatusConfigErr>
+                <CPUStatusPresenceDetected>true</CPUStatusPresenceDetected>
+                <CPUStatusDisabled>false</CPUStatusDisabled>
+                <CPUStatusTermPresenceDetected>false</CPUStatusTermPresenceDetected>
+                <CPUStatusThrottled>false</CPUStatusThrottled>
+            </ProcessorStatus>
+            <ProbeLocation>CPU2</ProbeLocation>
+        </CPUStatusProbe>
+    </CPUStatusProbeList>
+    <ObjStatus>2</ObjStatus>
+    <ObjStatus>2</ObjStatus>
+    <SMStatus>0</SMStatus>
+</OMA>

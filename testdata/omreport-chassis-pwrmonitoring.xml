@@ -1,0 +1,106 @@
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <CurrentProbeList poid="1" count="2">
+        <CurrentProbe oid="134217774" status="2" poid="2" pobjtype="17" index="0">
+            <SubType>26</SubType>
+            <ProbeReading>114</ProbeReading>
+            <ProbeThresholds>
+                <UNRThreshold>-2147483648</UNRThreshold>
+                <UCThreshold>483</UCThreshold>
+                <UNCThreshold>402</UNCThreshold>
+                <LNCThreshold>-2147483648</LNCThreshold>
+                <LCThreshold>-2147483648</LCThreshold>
+                <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+                <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+                <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+                <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+                <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board Pwr Consumption</ProbeLocation>
+        </CurrentProbe>
+        <CurrentProbe oid="134217775" status="2" poid="2" pobjtype="17" index="1">
+            <SubType>25</SubType>
+            <ProbeReading>5</ProbeReading>
+            <ProbeThresholds>
+                <UNRThreshold>-2147483648</UNRThreshold>
+                <UCThreshold>-2147483648</UCThreshold>
+                <UNCThreshold>-2147483648</UNCThreshold>
+                <LNCThreshold>-2147483648</LNCThreshold>
+                <LCThreshold>-2147483648</LCThreshold>
+                <LNRThreshold>-2147483648</LNRThreshold>
+            </ProbeThresholds>
+            <ProbeStatus>2</ProbeStatus>
+            <Capabilities>
+                <ProbeUNCDefSetEnabled>false</ProbeUNCDefSetEnabled>
+                <ProbeLNCDefSetEnabled>false</ProbeLNCDefSetEnabled>
+                <ProbeUNCSetEnabled>false</ProbeUNCSetEnabled>
+                <ProbeLNCSetEnabled>false</ProbeLNCSetEnabled>
+            </Capabilities>
+            <ProbeLocation>System Board Current</ProbeLocation>
+        </CurrentProbe>
+    </CurrentProbeList>
+    <ObjStatus>2</ObjStatus>
+    <SMStatus>0</SMStatus>
+    <EMPObj ons="Root/MainSystemChassis/EMPObj" instance="0" creatoralias="dciemp" creatordisplay="IPMI Embedded Management Data Populator">
+        <oid>117506368</oid>
+        <objtype>320</objtype>
+        <objstatus>2</objstatus>
+        <defaultRestoreSupport>1</defaultRestoreSupport>
+        <defaultRestoreStatus>1</defaultRestoreStatus>
+        <defaultRestoreRequireReboot>0</defaultRestoreRequireReboot>
+        <type>33</type>
+        <licenseClass>4</licenseClass>
+        <uiStatus>1</uiStatus>
+        <localCommandDisableStatus>0</localCommandDisableStatus>
+        <ipv4State>1</ipv4State>
+        <bladeFormFactor>6</bladeFormFactor>
+        <nicEnable>1</nicEnable>
+        <lccState>1</lccState>
+        <defaultRestoreTimeoutMSec>300000</defaultRestoreTimeoutMSec>
+        <defaultRestoreTimeRemaining>0</defaultRestoreTimeRemaining>
+        <defaultRestorePercentage>100</defaultRestorePercentage>
+        <numPossibleActiveSessions>5</numPossibleActiveSessions>
+        <numCurrentlyActiveSessions>0</numCurrentlyActiveSessions>
+        <DisplayName>BMC Remote Access Service Point</DisplayName>
+        <Description>Remote Access Service Point of the BMC</Description>
+        <Version>2.0</Version>
+        <GUID>32484a4f-c0ca-3180-3310-005a4c4c4544</GUID>
+        <Url>https://10.131.183.53:443</Url>
+        <ipv6Url></ipv6Url>
+        <BladeLocation>SLOT-01</BladeLocation>
+    </EMPObj>
+    <PowerConsumptionDataObj ons="Root/MainSystemChassis/PowerConsumptionDataObj" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+        <oid>134283304</oid>
+        <objtype>40</objtype>
+        <objstatus>2</objstatus>
+        <cumulativeWatts>300524</cumulativeWatts>
+        <cwStartTime>1498579566</cwStartTime>
+        <peakWatts>290</peakWatts>
+        <pwStartTime>1498579566</pwStartTime>
+        <pwReadingTime>1521741186</pwReadingTime>
+        <peakAmps>13</peakAmps>
+        <paStartTime>1498579566</paStartTime>
+        <paReadingTime>1498582936</paReadingTime>
+        <minPower>177</minPower>
+        <maxPower>561</maxPower>
+        <powerCap>539</powerCap>
+        <powerCapCaps>1</powerCapCaps>
+        <powerCapSetting>0</powerCapSetting>
+        <instHeadRoom>0</instHeadRoom>
+        <peakHeadRoom>0</peakHeadRoom>
+        <timezone>0</timezone>
+        <Identifier>System power consumption data</Identifier>
+    </PowerConsumptionDataObj>
+    <ObjCount>2</ObjCount>
+    <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+    <cwStartTimeDisplay>Tue Jun 27 16:06:06 2017</cwStartTimeDisplay>
+    <pwReadingTimeDisplay>Thu Mar 22 17:53:06 2018</pwReadingTimeDisplay>
+    <paStartTimeDisplay>Tue Jun 27 16:06:06 2017</paStartTimeDisplay>
+    <paReadingTimeDisplay>Tue Jun 27 17:02:16 2017</paReadingTimeDisplay>
+    <pwStartTimeDisplay>Tue Jun 27 16:06:06 2017</pwStartTimeDisplay>
+    <cwFinishTimeDisplay>Tue May  1 20:30:59 2018</cwFinishTimeDisplay>
+    <UnitType>watt</UnitType>
+</OMA>

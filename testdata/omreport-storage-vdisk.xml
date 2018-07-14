@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <VirtualDisks System="true" ControllerName="PERC FD33xD(Integrated RAID Controller 2 in Front Chassis Slot 3)" VirtualDiskName="" PCISlotNo="32" CurrentMethodMask="11000100000100110110000111100000" AttributesMask="10010000111100110000000000000010">
+        <DCStorageObject>
+            <ObjID type="u32">167772164</ObjID>
+            <ObjType type="u32">773</ObjType>
+            <AttributesMask type="u32">00000000000000000000000000000010</AttributesMask>
+            <MasterMethodMask type="u32">00001101110110000001111110110001</MasterMethodMask>
+            <CurrentMethodMask type="u32">00000001110010000000011110110001</CurrentMethodMask>
+            <ObjState type="u64">1</ObjState>
+            <ObjStatus type="u32">2</ObjStatus>
+            <ControllerNum type="u32">0</ControllerNum>
+            <VendorID type="u32">4</VendorID>
+            <DeviceName type="astring">/dev/sda</DeviceName>
+            <Name type="astring">OS</Name>
+            <Length type="u64">1919716163584</Length>
+            <GlobalNo type="u32">0</GlobalNo>
+            <ReadPolicy type="u32">4</ReadPolicy>
+            <WritePolicy type="u32">4</WritePolicy>
+            <LogicalDriveNum type="u32">0</LogicalDriveNum>
+            <Layout type="u32">4</Layout>
+            <StripeSize type="u32">128</StripeSize>
+            <DefaultReadPolicy type="u32">4</DefaultReadPolicy>
+            <DefaultWritePolicy type="u32">4</DefaultWritePolicy>
+            <NumBootPart type="u32">1</NumBootPart>
+            <Nexus type="astring">\0\0</Nexus>
+            <SpanLength type="u32">2</SpanLength>
+            <BusProtocol type="u32">7</BusProtocol>
+            <ControllerModelNumber type="u32">8020</ControllerModelNumber>
+            <DeviceID type="u32">0</DeviceID>
+            <DiskCachePolicy type="u32">1</DiskCachePolicy>
+            <MediaType type="u32">2</MediaType>
+            <ProtectionPolicyViolated type="u32">2</ProtectionPolicyViolated>
+            <IsSSC type="u32">0</IsSSC>
+            <DefaultPSPolicyCtrlDefault type="u32">1</DefaultPSPolicyCtrlDefault>
+            <CurrentPSPolicyCtrlDefault type="u32">0</CurrentPSPolicyCtrlDefault>
+            <PowerSavingOptions type="u32">0</PowerSavingOptions>
+            <DefaultPSPolicyAuto type="u32">0</DefaultPSPolicyAuto>
+            <DefaultPSPolicyMax type="u32">0</DefaultPSPolicyMax>
+            <DefaultPSPolicyT10 type="u32">0</DefaultPSPolicyT10>
+            <DefaultPSPolicyNone type="u32">0</DefaultPSPolicyNone>
+            <CurrentPSPolicyAuto type="u32">0</CurrentPSPolicyAuto>
+            <CurrentPSPolicyMax type="u32">0</CurrentPSPolicyMax>
+            <CurrentPSPolicyT10 type="u32">0</CurrentPSPolicyT10>
+            <CurrentPSPolicyNone type="u32">1</CurrentPSPolicyNone>
+            <unknown25001 type="u32">2</unknown25001>
+            <VdPIEnabled type="u32">0</VdPIEnabled>
+            <PdSectorSize type="u32">512</PdSectorSize>
+            <TreeStatus type="u32">2</TreeStatus>
+        </DCStorageObject>
+        <DCStorageObject>
+            <ObjID type="u32">167772169</ObjID>
+            <ObjType type="u32">773</ObjType>
+            <AttributesMask type="u32">00000000000000000000000000000010</AttributesMask>
+            <MasterMethodMask type="u32">00001101110010000001111100110001</MasterMethodMask>
+            <CurrentMethodMask type="u32">00000001110010000000011100010001</CurrentMethodMask>
+            <ObjState type="u64">1</ObjState>
+            <ObjStatus type="u32">2</ObjStatus>
+            <ControllerNum type="u32">0</ControllerNum>
+            <VendorID type="u32">4</VendorID>
+            <DeviceName type="astring">/dev/sdb</DeviceName>
+            <Name type="astring">CASS</Name>
+            <Length type="u64">1919716163584</Length>
+            <GlobalNo type="u32">0</GlobalNo>
+            <ReadPolicy type="u32">16</ReadPolicy>
+            <WritePolicy type="u32">4</WritePolicy>
+            <LogicalDriveNum type="u32">1</LogicalDriveNum>
+            <Layout type="u32">2</Layout>
+            <StripeSize type="u32">128</StripeSize>
+            <DefaultReadPolicy type="u32">16</DefaultReadPolicy>
+            <DefaultWritePolicy type="u32">4</DefaultWritePolicy>
+            <Nexus type="astring">\0\1</Nexus>
+            <SpanLength type="u32">1</SpanLength>
+            <BusProtocol type="u32">7</BusProtocol>
+            <ControllerModelNumber type="u32">8020</ControllerModelNumber>
+            <DeviceID type="u32">1</DeviceID>
+            <DiskCachePolicy type="u32">1</DiskCachePolicy>
+            <MediaType type="u32">2</MediaType>
+            <ProtectionPolicyViolated type="u32">3</ProtectionPolicyViolated>
+            <unknown24914 type="u32">0</unknown24914>
+            <IsSSC type="u32">0</IsSSC>
+            <DefaultPSPolicyCtrlDefault type="u32">1</DefaultPSPolicyCtrlDefault>
+            <CurrentPSPolicyCtrlDefault type="u32">0</CurrentPSPolicyCtrlDefault>
+            <PowerSavingOptions type="u32">0</PowerSavingOptions>
+            <DefaultPSPolicyAuto type="u32">0</DefaultPSPolicyAuto>
+            <DefaultPSPolicyMax type="u32">0</DefaultPSPolicyMax>
+            <DefaultPSPolicyT10 type="u32">0</DefaultPSPolicyT10>
+            <DefaultPSPolicyNone type="u32">0</DefaultPSPolicyNone>
+            <CurrentPSPolicyAuto type="u32">0</CurrentPSPolicyAuto>
+            <CurrentPSPolicyMax type="u32">0</CurrentPSPolicyMax>
+            <CurrentPSPolicyT10 type="u32">0</CurrentPSPolicyT10>
+            <CurrentPSPolicyNone type="u32">1</CurrentPSPolicyNone>
+            <unknown25001 type="u32">2</unknown25001>
+            <VdPIEnabled type="u32">0</VdPIEnabled>
+            <PdSectorSize type="u32">512</PdSectorSize>
+            <TreeStatus type="u32">2</TreeStatus>
+        </DCStorageObject>
+    </VirtualDisks>
+    <SMStatus>0</SMStatus>
+</OMA>

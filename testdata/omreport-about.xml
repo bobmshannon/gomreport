@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <About>
+        <OEMTitleCompanyName>Dell</OEMTitleCompanyName>
+        <OEMTitleCoreProductName>OpenManage</OEMTitleCoreProductName>
+        <CompanyName>Dell Inc.</CompanyName>
+        <LegalCopyright>Copyright (C) Dell Inc. 1995-2015 All rights reserved.</LegalCopyright>
+        <Component>
+            <Name>RAC Command Interface</Name>
+            <Version>7.1.0</Version>
+            <ID>racadm4</ID>
+        </Component>
+        <Component>
+            <Name>Data Engine</Name>
+            <Version>8.5.0</Version>
+            <ID>deng</ID>
+        </Component>
+        <Component>
+            <Name>Server Administrator Core</Name>
+            <Version>8.5.0</Version>
+            <ID>ominst</ID>
+        </Component>
+        <Component>
+            <Name>Data Engine SNMP</Name>
+            <Version>8.5.0</Version>
+            <ID>deng-snmp</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management package for GUI component</Name>
+            <Version>5.4.0</Version>
+            <ID>smweb</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator snmp component</Name>
+            <Version>8.5.0</Version>
+            <ID>server-snmp</ID>
+        </Component>
+        <Component>
+            <Name>iDRAC7 Command Interface</Name>
+            <Version>8.5.0</Version>
+            <ID>idracadm7</ID>
+        </Component>
+        <Component>
+            <Name>Remote Access Card Data Populator</Name>
+            <Version>7.1.0</Version>
+            <ID>rac4-populator</ID>
+        </Component>
+        <Component>
+            <Name>Modular Server Virtual Media CLI Utils</Name>
+            <Version>1.0.0</Version>
+            <ID>idrac-ivmcli</ID>
+        </Component>
+        <Component>
+            <Name>Apache Tomcat Webserver</Name>
+            <Version>8.0.28</Version>
+            <ID>tomcat</ID>
+        </Component>
+        <Component>
+            <Name>NVMe Library</Name>
+            <Version>8.5.0</Version>
+            <ID>nvme</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator storage cli component</Name>
+            <Version>8.5.0</Version>
+            <ID>storageservices-cli</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing all Server Administrator features</Name>
+            <Version>8.5.0</Version>
+            <ID>all</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management common files for GUI and CLI</Name>
+            <Version>5.4.0</Version>
+            <ID>smcommon</ID>
+        </Component>
+        <Component>
+            <Name>A library for parsing GNU style command line arguments</Name>
+            <Version>8.5.0</Version>
+            <ID>argtable2</ID>
+        </Component>
+        <Component>
+            <Name>Hardware Abstraction Programming Interface</Name>
+            <Version>8.5.0</Version>
+            <ID>hapi</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management System Utilities Package / Libsysfs</Name>
+            <Version>1.3.0</Version>
+            <ID>sysfsutils</ID>
+        </Component>
+        <ProductName>Dell OpenManage Server Administrator</ProductName>
+        <ProductVersion>8.5.0</ProductVersion>
+        <Component>
+            <Name>Server Administrator Common Services</Name>
+            <Version>8.5.0</Version>
+            <ID>omacs</ID>
+        </Component>
+        <Component>
+            <Name>Remote Access Card Data Populator</Name>
+            <Version>8.5.0</Version>
+            <ID>rac-components</ID>
+        </Component>
+        <Component>
+            <Name>RAC Integration Layer</Name>
+            <Version>8.5.0</Version>
+            <ID>racdrsc</ID>
+        </Component>
+        <Component>
+            <Name>Server Administrator CLI</Name>
+            <Version>8.5.0</Version>
+            <ID>omacore</ID>
+        </Component>
+        <Component>
+            <Name>Monolithic Server Virtual Media CLI Utils</Name>
+            <Version>1.0.0</Version>
+            <ID>idrac-vmcli</ID>
+        </Component>
+        <Component>
+            <Name>Oracle Java Runtime Environment</Name>
+            <Version>1.8.0_112</Version>
+            <ID>jre</ID>
+        </Component>
+        <Component>
+            <Name>OpenManage Inventory Collector</Name>
+            <Version>8.5.0</Version>
+            <ID>cm</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator cli component</Name>
+            <Version>8.5.0</Version>
+            <ID>server-cli</ID>
+        </Component>
+        <Component>
+            <Name>iDRAC SNMP components</Name>
+            <Version>8.5.0</Version>
+            <ID>idrac-snmp</ID>
+        </Component>
+        <Component>
+            <Name>OSLogging control</Name>
+            <Version>8.5.0</Version>
+            <ID>oslog</ID>
+        </Component>
+        <Component>
+            <Name>Meta rpm for iDRAC components</Name>
+            <Version>8.5.0</Version>
+            <ID>idrac7</ID>
+        </Component>
+        <Component>
+            <Name>Meta rpm for RAC5 components</Name>
+            <Version>8.5.0</Version>
+            <ID>rac5</ID>
+        </Component>
+        <Component>
+            <Name>Remote Access Card Managed Node</Name>
+            <Version>7.1.0</Version>
+            <ID>racsvc</ID>
+        </Component>
+        <Component>
+            <Name>Meta rpm for iDRAC components</Name>
+            <Version>8.5.0</Version>
+            <ID>idrac</ID>
+        </Component>
+        <Component>
+            <Name>Disney SNMP</Name>
+            <Version>8.5.0</Version>
+            <ID>isvc-snmp</ID>
+        </Component>
+        <Component>
+            <Name>System Utilities Package/Libsysfs for LSI storage libraries</Name>
+            <Version>2.1.0</Version>
+            <ID>storelib-sysfs</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator Web Server feature</Name>
+            <Version>8.5.0</Version>
+            <ID>webserver</ID>
+        </Component>
+        <Component>
+            <Name>RealSSD package for storage management</Name>
+            <Version>8.5.0</Version>
+            <ID>realssd</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management CLI component</Name>
+            <Version>5.4.0</Version>
+            <ID>storage-cli</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management SNMP component</Name>
+            <Version>5.4.0</Version>
+            <ID>storage-snmp</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator Storage Services feature</Name>
+            <Version>8.5.0</Version>
+            <ID>storageservices</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Standard Server Agent</Name>
+            <Version>8.5.0</Version>
+            <ID>standardAgent</ID>
+        </Component>
+        <Component>
+            <Name>Server Administrator XML Support SDK</Name>
+            <Version>8.5.0</Version>
+            <ID>xmlsup</ID>
+        </Component>
+        <Component>
+            <Name>Instrumentation Services</Name>
+            <Version>8.5.0</Version>
+            <ID>isvc</ID>
+        </Component>
+        <Component>
+            <Name>Server Administrator Common Framework</Name>
+            <Version>8.5.0</Version>
+            <ID>omcommon</ID>
+        </Component>
+        <Component>
+            <Name>Webserver Migrate Support for JRE 1.8</Name>
+            <Version>8.5.0</Version>
+            <ID>omaksmig</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Agent</Name>
+            <Version>8.5.0</Version>
+            <ID>base</ID>
+        </Component>
+        <Component>
+            <Name>iDRAC6 Command Interface</Name>
+            <Version>8.5.0</Version>
+            <ID>idracadm</ID>
+        </Component>
+        <Component>
+            <Name>RAC5 Command Interface</Name>
+            <Version>7.1.0</Version>
+            <ID>racadm5</ID>
+        </Component>
+        <Component>
+            <Name>Meta rpm for RAC4 components</Name>
+            <Version>7.1.0</Version>
+            <ID>rac4</ID>
+        </Component>
+        <Component>
+            <Name>StoreLib package for storage management</Name>
+            <Version>8.5.0</Version>
+            <ID>storelib</ID>
+        </Component>
+        <Component>
+            <Name>Storage Management accessors package</Name>
+            <Version>5.4.0</Version>
+            <ID>storage</ID>
+        </Component>
+        <Component>
+            <Name>Meta package for installing the Server Administrator storage snmp component</Name>
+            <Version>8.5.0</Version>
+            <ID>storageservices-snmp</ID>
+        </Component>
+        <Component>
+            <Name>Integrated Tunnel Provider</Name>
+            <Version>8.5.0</Version>
+            <ID>itunnelprovider</ID>
+        </Component>
+        <ProductID>omsa</ProductID>
+        <ADSupport>true</ADSupport>
+    </About>
+    <SMStatus>0</SMStatus>
+</OMA>

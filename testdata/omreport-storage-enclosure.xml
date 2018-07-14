@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA cli="true">
+    <OMAUserRights>1</OMAUserRights>
+    <Enclosures System="true" ControllerName="PERC FD33xD(Integrated RAID Controller 2 in Front Chassis Slot 3)" EnclosureName="" PCISlotNo="32">
+        <DCStorageObject>
+            <ObjID type="u32">167772165</ObjID>
+            <ObjType type="u32">776</ObjType>
+            <MasterMethodMask type="u32">00000000000000000000000000000000</MasterMethodMask>
+            <CurrentMethodMask type="u32">00000000000000000000000000000000</CurrentMethodMask>
+            <ObjState type="u64">1</ObjState>
+            <ObjStatus type="u32">2</ObjStatus>
+            <ControllerNum type="u32">0</ControllerNum>
+            <VendorID type="u32">5</VendorID>
+            <Channel type="u32">0</Channel>
+            <EnclosureID type="u32">3</EnclosureID>
+            <FirmwareVer type="astring">3.31</FirmwareVer>
+            <GlobalNo type="u32">0</GlobalNo>
+            <ProductID type="astring">BP13G_EXP       </ProductID>
+            <ProductVersion type="astring">3.31</ProductVersion>
+            <EnclosureType type="u32">1</EnclosureType>
+            <EnclosureTarget type="u32">32</EnclosureTarget>
+            <Nexus type="astring">\0\0\3</Nexus>
+            <BusProtocol type="u32">8</BusProtocol>
+            <SASAddress type="astring">500056B31581AEFD</SASAddress>
+            <DeviceID type="u32">32</DeviceID>
+            <EnclosureIndex type="u32">32</EnclosureIndex>
+            <MaxNumOfPDSlots type="u32">16</MaxNumOfPDSlots>
+            <TreeStatus type="u32">2</TreeStatus>
+        </DCStorageObject>
+    </Enclosures>
+    <SMStatus>0</SMStatus>
+</OMA>

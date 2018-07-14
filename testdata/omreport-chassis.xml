@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA>
+    <Parent>
+        <Oid>2</Oid>
+        <ParentName>
+            <ChassisProps1 oid="83886081" status="2">
+                <ChassType>25</ChassType>
+                <SystemClass>4</SystemClass>
+                <ChassModel>PowerEdge FC430</ChassModel>
+                <ChassLockPresent>false</ChassLockPresent>
+                <SystemRevision>0</SystemRevision>
+                <MachineID>254</MachineID>
+                <SystemIDExt>1590</SystemIDExt>
+                <ChassName>Main System Chassis</ChassName>
+                <ChassManufacturer>Dell Inc.</ChassManufacturer>
+            </ChassisProps1>
+            <SMStatus>0</SMStatus>
+            <OMACMDNEW>0</OMACMDNEW>
+        </ParentName>
+        <voltages>
+            <VoltageObj ons="Root/MainSystemChassis/VoltageObj:0" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217737</oid>
+                <objtype>24</objtype>
+                <objstatus>2</objstatus>
+                <subType>17</subType>
+                <probeReading>1</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>6357100</startDelay>
+                    <PollingIntervalSecs>6815859</PollingIntervalSecs>
+                    <runDelay>2621440</runDelay>
+                    <counter>7667778</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>CPU1 VCORE PG</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </VoltageObj>
+            <VoltageObj ons="Root/MainSystemChassis/VoltageObj:1" instance="1" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217738</oid>
+                <objtype>24</objtype>
+                <objstatus>2</objstatus>
+                <subType>17</subType>
+                <probeReading>1</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>6357100</startDelay>
+                    <PollingIntervalSecs>6815859</PollingIntervalSecs>
+                    <runDelay>2621440</runDelay>
+                    <counter>7667778</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>CPU2 VCORE PG</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </VoltageObj>
+            <VoltageObj ons="Root/MainSystemChassis/VoltageObj:2" instance="2" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217739</oid>
+                <objtype>24</objtype>
+                <objstatus>2</objstatus>
+                <subType>17</subType>
+                <probeReading>1</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>6357100</startDelay>
+                    <PollingIntervalSecs>6815859</PollingIntervalSecs>
+                    <runDelay>2621440</runDelay>
+                    <counter>7667778</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>System Board 12V PG</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </VoltageObj>
+            <ObjCount>3</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </voltages>
+        <temperatures>
+            <TemperatureObj ons="Root/MainSystemChassis/TemperatureObj:0" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217731</oid>
+                <objtype>22</objtype>
+                <objstatus>2</objstatus>
+                <subType>5</subType>
+                <probeReading>210</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>470</ucThreshold>
+                    <uncThreshold>420</uncThreshold>
+                    <lncThreshold>30</lncThreshold>
+                    <lcThreshold>-70</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>3014704</startDelay>
+                    <PollingIntervalSecs>3145781</PollingIntervalSecs>
+                    <runDelay>2621472</runDelay>
+                    <counter>7667778</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>15</probeCapabilities>
+                <ProbeLocation>System Board Inlet Temp</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </TemperatureObj>
+            <TemperatureObj ons="Root/MainSystemChassis/TemperatureObj:1" instance="1" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217777</oid>
+                <objtype>22</objtype>
+                <objstatus>2</objstatus>
+                <subType>5</subType>
+                <probeReading>390</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>1000</ucThreshold>
+                    <uncThreshold>950</uncThreshold>
+                    <lncThreshold>80</lncThreshold>
+                    <lcThreshold>30</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>21780576</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21780576</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>CPU1 Temp</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </TemperatureObj>
+            <TemperatureObj ons="Root/MainSystemChassis/TemperatureObj:2" instance="2" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217778</oid>
+                <objtype>22</objtype>
+                <objstatus>2</objstatus>
+                <subType>5</subType>
+                <probeReading>310</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>1000</ucThreshold>
+                    <uncThreshold>950</uncThreshold>
+                    <lncThreshold>80</lncThreshold>
+                    <lcThreshold>30</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>21780576</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21780576</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>CPU2 Temp</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </TemperatureObj>
+            <ObjCount>3</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </temperatures>
+        <fans>
+            <FanObj ons="Root/MainSystemChassis/FanObj:0" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217786</oid>
+                <objtype>23</objtype>
+                <objstatus>2</objstatus>
+                <subType>3</subType>
+                <probeReading>5880</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>3480</lncThreshold>
+                    <lcThreshold>2880</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>112</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21785760</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>160</probeCapabilities>
+                <ProbeLocation>Chassis Fan1A</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </FanObj>
+            <FanObj ons="Root/MainSystemChassis/FanObj:1" instance="1" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217787</oid>
+                <objtype>23</objtype>
+                <objstatus>2</objstatus>
+                <subType>3</subType>
+                <probeReading>7680</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>4560</lncThreshold>
+                    <lcThreshold>3720</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>112</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21785760</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>160</probeCapabilities>
+                <ProbeLocation>Chassis Fan2</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </FanObj>
+            <FanObj ons="Root/MainSystemChassis/FanObj:2" instance="2" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217788</oid>
+                <objtype>23</objtype>
+                <objstatus>2</objstatus>
+                <subType>3</subType>
+                <probeReading>7800</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>4560</lncThreshold>
+                    <lcThreshold>3720</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>112</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21785760</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>160</probeCapabilities>
+                <ProbeLocation>Chassis Fan3</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </FanObj>
+            <ObjCount>3</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </fans>
+        <currents>
+            <CurrentObj ons="Root/MainSystemChassis/CurrentObj:0" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217774</oid>
+                <objtype>25</objtype>
+                <objstatus>2</objstatus>
+                <subType>26</subType>
+                <probeReading>99</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>483</ucThreshold>
+                    <uncThreshold>402</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>21780576</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21780576</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>80</probeCapabilities>
+                <ProbeLocation>System Board Pwr Consumption</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </CurrentObj>
+            <CurrentObj ons="Root/MainSystemChassis/CurrentObj:1" instance="1" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217775</oid>
+                <objtype>25</objtype>
+                <objstatus>2</objstatus>
+                <subType>25</subType>
+                <probeReading>4</probeReading>
+                <probeThresholds>
+                    <unrThreshold>-2147483648</unrThreshold>
+                    <ucThreshold>-2147483648</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>0</startDelay>
+                    <PollingIntervalSecs>21780576</PollingIntervalSecs>
+                    <runDelay>0</runDelay>
+                    <counter>21780576</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>System Board Current</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </CurrentObj>
+            <ObjCount>2</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </currents>
+        <powersupply>
+            <Redundancy ons="Root/MainSystemChassis/Redundancy:1" instance="1" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217814</oid>
+                <objtype>2</objtype>
+                <objstatus>4</objstatus>
+            </Redundancy>
+            <ObjCount>1</ObjCount>
+            <computedobjstatus strval="CRITICAL">4</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </powersupply>
+        <powermonitoring>
+            <PowerConsumptionDataObj ons="Root/MainSystemChassis/PowerConsumptionDataObj" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134283304</oid>
+                <objtype>40</objtype>
+                <objstatus>2</objstatus>
+                <cumulativeWatts>286660</cumulativeWatts>
+                <cwStartTime>1498853237</cwStartTime>
+                <peakWatts>343</peakWatts>
+                <pwStartTime>1498853237</pwStartTime>
+                <pwReadingTime>1498858541</pwReadingTime>
+                <peakAmps>16</peakAmps>
+                <paStartTime>1498853237</paStartTime>
+                <paReadingTime>1498858012</paReadingTime>
+                <minPower>186</minPower>
+                <maxPower>561</maxPower>
+                <powerCap>561</powerCap>
+                <powerCapCaps>1</powerCapCaps>
+                <powerCapSetting>0</powerCapSetting>
+                <instHeadRoom>0</instHeadRoom>
+                <peakHeadRoom>0</peakHeadRoom>
+                <timezone>0</timezone>
+                <Identifier>System power consumption data</Identifier>
+            </PowerConsumptionDataObj>
+            <ObjCount>1</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </powermonitoring>
+        <processor>
+            <DevProcessorObj ons="Root/MainSystemChassis/PortProcessorObj:0/DevProcessorObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886083</oid>
+                <objtype>210</objtype>
+                <objstatus>2</objstatus>
+                <type>3</type>
+                <family>179</family>
+                <maxSpeed>4000</maxSpeed>
+                <curSpeed>2400</curSpeed>
+                <extClockSpeed>9600</extClockSpeed>
+                <voltage>1300</voltage>
+                <status>3</status>
+                <upgrade>43</upgrade>
+                <Manufacturer>Intel</Manufacturer>
+                <Version>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz Stepping 1</Version>
+                <coreCount>14</coreCount>
+                <coreEnabledCount>14</coreEnabledCount>
+                <threadCount>28</threadCount>
+                <characteristics value="252" count="2">
+                    <Unknown>false</Unknown>
+                    <Is64BitCapable>true</Is64BitCapable>
+                </characteristics>
+                <extendedCharacteristics value="63" count="5">
+                    <VTCapable>true</VTCapable>
+                    <DBSCapable>true</DBSCapable>
+                    <NXCapable>true</NXCapable>
+                    <HTCapable>true</HTCapable>
+                    <TMCapable>true</TMCapable>
+                </extendedCharacteristics>
+                <Brand>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz</Brand>
+                <Model>Model 79</Model>
+                <Stepping>Stepping 1</Stepping>
+                <extendedStates value="61" count="5">
+                    <VTEnabled>true</VTEnabled>
+                    <DBSEnabled>false</DBSEnabled>
+                    <NXEnabled>true</NXEnabled>
+                    <HTEnabled>true</HTEnabled>
+                    <TMEnabled>true</TMEnabled>
+                </extendedStates>
+                <extendedValidCharacteristics value="0" count="5">
+                    <VTValid>false</VTValid>
+                    <DBSValid>false</DBSValid>
+                    <NXValid>false</NXValid>
+                    <HTValid>false</HTValid>
+                    <TMValid>false</TMValid>
+                </extendedValidCharacteristics>
+            </DevProcessorObj>
+            <DevProcessorObj ons="Root/MainSystemChassis/PortProcessorObj:1/DevProcessorObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886088</oid>
+                <objtype>210</objtype>
+                <objstatus>2</objstatus>
+                <type>3</type>
+                <family>179</family>
+                <maxSpeed>4000</maxSpeed>
+                <curSpeed>2400</curSpeed>
+                <extClockSpeed>9600</extClockSpeed>
+                <voltage>1300</voltage>
+                <status>3</status>
+                <upgrade>43</upgrade>
+                <Manufacturer>Intel</Manufacturer>
+                <Version>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz Stepping 1</Version>
+                <coreCount>14</coreCount>
+                <coreEnabledCount>14</coreEnabledCount>
+                <threadCount>28</threadCount>
+                <characteristics value="252" count="2">
+                    <Unknown>false</Unknown>
+                    <Is64BitCapable>true</Is64BitCapable>
+                </characteristics>
+                <extendedCharacteristics value="63" count="5">
+                    <VTCapable>true</VTCapable>
+                    <DBSCapable>true</DBSCapable>
+                    <NXCapable>true</NXCapable>
+                    <HTCapable>true</HTCapable>
+                    <TMCapable>true</TMCapable>
+                </extendedCharacteristics>
+                <Brand>Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz</Brand>
+                <Model>Model 79</Model>
+                <Stepping>Stepping 1</Stepping>
+                <extendedStates value="61" count="5">
+                    <VTEnabled>true</VTEnabled>
+                    <DBSEnabled>false</DBSEnabled>
+                    <NXEnabled>true</NXEnabled>
+                    <HTEnabled>true</HTEnabled>
+                    <TMEnabled>true</TMEnabled>
+                </extendedStates>
+                <extendedValidCharacteristics value="0" count="5">
+                    <VTValid>false</VTValid>
+                    <DBSValid>false</DBSValid>
+                    <NXValid>false</NXValid>
+                    <HTValid>false</HTValid>
+                    <TMValid>false</TMValid>
+                </extendedValidCharacteristics>
+            </DevProcessorObj>
+            <ObjCount>2</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </processor>
+        <memory>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:0/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886096</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>1</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>A1</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E25064</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:1/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886098</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>1</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>A2</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Micron Technology (002C0632002C)</Manufacturer>
+                <SerialNumber>1753B5EE</SerialNumber>
+                <AssetTag>001722A0</AssetTag>
+                <PartNumber>36ASF4G72PZ-2G3D1</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:2/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886100</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>1</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>A3</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E24FF4</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:3/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886102</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>1</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>A4</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E25058</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:4/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886104</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>2</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>B1</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E250D5</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:5/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886106</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>2</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>B2</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E25047</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:6/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886108</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>2</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>B3</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E2505F</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <MemDevObj ons="Root/MainSystemChassis/MemArrObj/PortMemdevObj:7/MemDevObj" instance="0" creatoralias="dcwfm" creatordisplay="Wired for Management Data Populator">
+                <oid>83886110</oid>
+                <objtype>225</objtype>
+                <objstatus>2</objstatus>
+                <totalWidth>72</totalWidth>
+                <dataBusWidth>64</dataBusWidth>
+                <size>33554432</size>
+                <formFactor>9</formFactor>
+                <deviceSet>2</deviceSet>
+                <type>26</type>
+                <typeDetail value="8320" count="14">
+                    <Other>false</Other>
+                    <Unknown>false</Unknown>
+                    <FastPaged>false</FastPaged>
+                    <StaticColumn>false</StaticColumn>
+                    <PseudoStatic>false</PseudoStatic>
+                    <RAMBUS>false</RAMBUS>
+                    <Synchronous>true</Synchronous>
+                    <CMOS>false</CMOS>
+                    <EDO>false</EDO>
+                    <WindowDRAM>false</WindowDRAM>
+                    <CacheDRAM>false</CacheDRAM>
+                    <NonVolatile>false</NonVolatile>
+                    <RegisteredBuffered>true</RegisteredBuffered>
+                    <UnbufferedUnregistered>false</UnbufferedUnregistered>
+                </typeDetail>
+                <speed>2400</speed>
+                <errCount>0</errCount>
+                <sbErrCount>0</sbErrCount>
+                <mbErrCount>0</mbErrCount>
+                <sno>
+                    <size>0</size>
+                    <offset>0</offset>
+                </sno>
+                <DeviceLocator>B4</DeviceLocator>
+                <BankLocator></BankLocator>
+                <failureModes>0</failureModes>
+                <Manufacturer>Hynix Semiconductor (00AD00B300AD)</Manufacturer>
+                <SerialNumber>51E25063</SerialNumber>
+                <AssetTag>00172130</AssetTag>
+                <PartNumber>HMA84GR7MFR4N-UH</PartNumber>
+                <SpeedAsString>0.42 ns</SpeedAsString>
+                <AMBManufacturer isnull="true"></AMBManufacturer>
+                <SDRAMManufacturer isnull="true"></SDRAMManufacturer>
+                <dimmRank>2</dimmRank>
+                <extendedSize>32768</extendedSize>
+            </MemDevObj>
+            <ObjCount>8</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </memory>
+        <esmlog>
+            <LogObj ons="Root/MainSystemChassis/LogObj" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217810</oid>
+                <objtype>31</objtype>
+                <objstatus>2</objstatus>
+                <logType>1</logType>
+                <logFormat>3</logFormat>
+                <logRecSize>16</logRecSize>
+                <isLogClearable>true</isLogClearable>
+                <clearRequiresReboot>false</clearRequiresReboot>
+            </LogObj>
+            <ObjCount>1</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </esmlog>
+        <batteries>
+            <BatteryObj ons="Root/MainSystemChassis/BatteryObj" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217771</oid>
+                <objtype>27</objtype>
+                <objstatus>2</objstatus>
+                <subType>22</subType>
+                <probeReading>4</probeReading>
+                <probeThresholds>
+                    <unrThreshold>19552144</unrThreshold>
+                    <ucThreshold>0</ucThreshold>
+                    <uncThreshold>-2147483648</uncThreshold>
+                    <lncThreshold>-2147483648</lncThreshold>
+                    <lcThreshold>-2147483648</lcThreshold>
+                    <lnrThreshold>-2147483648</lnrThreshold>
+                </probeThresholds>
+                <probePolling>
+                    <isCustom>false</isCustom>
+                    <isStarted>false</isStarted>
+                    <startDelay>1296916293</startDelay>
+                    <PollingIntervalSecs>1414725698</PollingIntervalSecs>
+                    <runDelay>1598310738</runDelay>
+                    <counter>1413829442</counter>
+                </probePolling>
+                <probeStatus>2</probeStatus>
+                <probeCapabilities>0</probeCapabilities>
+                <ProbeLocation>System Board CMOS Battery</ProbeLocation>
+                <ReAliasedName isnull="true"></ReAliasedName>
+                <eventCapability>true</eventCapability>
+                <reservedAlignmentarray count="2">
+                    <reservedAlignment index="0">0</reservedAlignment>
+                    <reservedAlignment index="1">0</reservedAlignment>
+                </reservedAlignmentarray>
+            </BatteryObj>
+            <ObjCount>1</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </batteries>
+        <sdcard>
+            <SDCard ons="Root/MainSystemChassis/SDCard" instance="0" creatoralias="dcienv" creatordisplay="IPMI Environmental Data Populator">
+                <oid>134217732</oid>
+                <objtype>52</objtype>
+                <objstatus>2</objstatus>
+                <Type>4</Type>
+                <SDCardCertifiedByDell>-2</SDCardCertifiedByDell>
+                <SDCardPresent>false</SDCardPresent>
+                <SDCardSizeMB>0</SDCardSizeMB>
+                <SDCardFreeSizeMB>0</SDCardFreeSizeMB>
+                <SDCardState value="256" count="6">
+                    <SDCardOffLine>false</SDCardOffLine>
+                    <SDCardFailed>false</SDCardFailed>
+                    <SDCardActive>false</SDCardActive>
+                    <SDCardBoot>false</SDCardBoot>
+                    <SDCardWriteProtect>false</SDCardWriteProtect>
+                    <SDCardStandBy>true</SDCardStandBy>
+                </SDCardState>
+                <SDConfigState value="0" count="2">
+                    <MediaEnabled>false</MediaEnabled>
+                    <vFlashEnabled>false</vFlashEnabled>
+                </SDConfigState>
+                <SDConfigCaps value="3" count="2">
+                    <MediaConfigurable>true</MediaConfigurable>
+                    <VFlashConfigurable>true</VFlashConfigurable>
+                </SDConfigCaps>
+                <SDCardLocation>vFlash</SDCardLocation>
+                <eventCapability>true</eventCapability>
+            </SDCard>
+            <ObjCount>1</ObjCount>
+            <computedobjstatus strval="OK">2</computedobjstatus>
+            <SMStatus s32val="0" strval="SUCCESS">0</SMStatus>
+        </sdcard>
+    </Parent>
+</OMA>
