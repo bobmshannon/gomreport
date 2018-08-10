@@ -9,7 +9,7 @@ Dell servers with OMSA versions `7.x` or `8.x` installed are currently supported
 | ------------- |:-------------:|
 | `7.x`         | ✅            |
 | `8.x`         | ✅            |
-| `9.x`         | Experimental
+| `9.x`         | ✅
 
 ## Contributing
 
