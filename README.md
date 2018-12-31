@@ -3,7 +3,7 @@ A Go library for programmatically interacting with Dell OpenManage's omreport ut
 
 ## Compatibillity
 
-Dell servers with OMSA versions `7.x` or `8.x` installed are currently supported.
+Dell servers with OMSA versions `7.x`, `8.x`, or `9.x` installed are currently supported.
 
 | OMSA Version  | Supported     |
 | ------------- |:-------------:|
@@ -19,7 +19,7 @@ If a bug is discovered, file a GitHub issue with the following information:
 
 - Description of the problem
 - Steps to reproduce the problem
-- Version of OMSA installed (if applicable)
+- Version of OMSA installed
 - Linux distribution and kernel version
 - Any other relevant information that will be useful for debugging and reproducing the problem
 
