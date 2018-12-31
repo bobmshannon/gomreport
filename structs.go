@@ -74,6 +74,20 @@ type ChassisOutput struct {
 	BatteriesStatus       Status `xml:"Parent>batteries>computedobjstatus"`
 }
 
+// ChassisInfoOutput models the output of 'omreport chassis info'.
+type ChassisInfoOutput struct {
+	ChassisList []ChassisEntry `xml:"ChassisList>Chassis"`
+}
+
+// ChassisEntry models a chassis described by omreport.
+type ChassisEntry struct {
+	Hostname     string          `xml:"ChassisInfo>SystemInfo>SystemName"`
+	FirmwareList []FirmwareEntry `xml:"ChassisInfo>FirmwareList>Firmware"`
+	Model        string          `xml:"ChassisInfo>ChassisProps1>ChassModel"`
+	LockPresent  bool            `xml:"ChassisInfo>ChassisProps1>ChassLockPresent"`
+	ServiceTag   string          `xml:"ChassisInfo>ChassisProps2>ServiceTag"`
+}
+
 // ChassisBatteriesOutput models the output of 'omreport chassis batteries'.
 type ChassisBatteriesOutput struct {
 	Probes []BatteryProbe `xml:"BatteryObj"`
@@ -138,7 +152,7 @@ type StorageEnclosureOutput struct {
 type BatteryProbe struct {
 	ID       int    `xml:"index,attr"`
 	Location string `xml:"ProbeLocation"`
-	Status   Status `xml:"probeStatus"`
+	Status   Status `xml:"objstatus"`
 }
 
 // FanProbe models a fan probe described by omreport.
@@ -149,6 +163,12 @@ type FanProbe struct {
 	Location                string  `xml:"ProbeLocation"`
 	MinCriticalThreshold    float64 `xml:"ProbeThresholds>LCThreshold"`
 	MinNonCriticalThreshold float64 `xml:"ProbeThresholds>LNCThreshold"`
+}
+
+// FirmwareEntry models a firmware entry described by omreport.
+type FirmwareEntry struct {
+	Name    string `xml:"FWText"`
+	Version string `xml:"FWVersion"`
 }
 
 // Processor models a CPU described by omreport.

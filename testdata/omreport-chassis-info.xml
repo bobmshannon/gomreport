@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OMA>
+    <ChassisList count="1">
+        <Chassis oid="2" status="2" name="2" objtype="17" index="0" display="Main System Chassis">
+            <ChassisInfo>
+                <SystemInfo oid="33554434" status="2">
+                    <SystemBootupTime>Mon Aug  6 23:06:09 2018</SystemBootupTime>
+                    <SystemTime>Wed Nov  7 18:34:57 2018</SystemTime>
+                    <SystemName>apps2.internal</SystemName>
+                    <SystemLocation editable="true">Please set the value</SystemLocation>
+                    <PrimaryUserName editable="true">Please set the value</PrimaryUserName>
+                    <PrimaryUserPhone editable="true">Please set the value</PrimaryUserPhone>
+                </SystemInfo>
+                <ChassisProps1 oid="83886081" status="2">
+                    <ChassType>25</ChassType>
+                    <SystemClass>4</SystemClass>
+                    <ChassModel>PowerEdge FC430</ChassModel>
+                    <ChassLockPresent>false</ChassLockPresent>
+                    <SystemRevision>0</SystemRevision>
+                    <MachineID>254</MachineID>
+                    <SystemIDExt>1590</SystemIDExt>
+                    <ChassName>Main System Chassis</ChassName>
+                    <ChassManufacturer>Dell Inc.</ChassManufacturer>
+                </ChassisProps1>
+                <ChassisProps2 oid="134217729" status="2">
+                    <FanControl>0</FanControl>
+                    <FaultLEDControl>0</FaultLEDControl>
+                    <FaultLEDState>0</FaultLEDState>
+                    <ConnectStatus>2</ConnectStatus>
+                    <PowerButtonControl>1</PowerButtonControl>
+                    <NMIButtonControl>0</NMIButtonControl>
+                    <OEMBrandStatus>0</OEMBrandStatus>
+                    <ChassIdentifyState>0</ChassIdentifyState>
+                    <ChassIdentifyTimeout unit="seconds">300</ChassIdentifyTimeout>
+                    <HdLedSupport>false</HdLedSupport>
+                    <IdentifySupport>true</IdentifySupport>
+                    <ServiceTag>JZ31JH2</ServiceTag>
+                    <ExpressServiceCode>43480291286</ExpressServiceCode>
+                    <AssetTag editable="true">Unknown</AssetTag>
+                    <NodeId>JZ31JH2</NodeId>
+                    <ICEEMode>0</ICEEMode>
+                    <ICEETroubleShootMode>0</ICEETroubleShootMode>
+                </ChassisProps2>
+                <FirmwareList count="2">
+                    <Firmware oid="134217730" status="2" index="0">
+                        <FWSize>Unknown</FWSize>
+                        <SupportedMethods>0</SupportedMethods>
+                        <FWType>22</FWType>
+                        <FWDate>00/00/0000</FWDate>
+                        <FWVersion>2.41.40.40 (Build 7)</FWVersion>
+                        <FWText>iDRAC8</FWText>
+                    </Firmware>
+                    <Firmware oid="137822263" status="2" index="1">
+                        <FWSize>Unknown</FWSize>
+                        <SupportedMethods>0</SupportedMethods>
+                        <FWType>20</FWType>
+                        <FWDate>00/00/0000</FWDate>
+                        <FWVersion>2.41.40.40</FWVersion>
+                        <FWText>Lifecycle Controller</FWText>
+                    </Firmware>
+                </FirmwareList>
+                <BaseBoardList count="2">
+                    <BaseBoard oid="83886796" status="2" index="0">
+                        <BaseBoardType>3</BaseBoardType>
+                        <FeatureFlags>
+                            <HostingBoard>true</HostingBoard>
+                            <RequiresDCard>false</RequiresDCard>
+                            <Removable>true</Removable>
+                            <Replaceable>true</Replaceable>
+                            <HotSwappable>true</HotSwappable>
+                        </FeatureFlags>
+                        <Manufacturer>Dell Inc.</Manufacturer>
+                        <ProductName>00TXH1</ProductName>
+                        <Version>A03</Version>
+                        <ServiceTag>JZ31JH2</ServiceTag>
+                        <ExpressServiceCode>43480291286</ExpressServiceCode>
+                        <PiecePartID>CNWS30074E0066</PiecePartID>
+                        <BoardLocation>Slot 1b</BoardLocation>
+                        <BaseBoardTypeStr>Server Blade</BaseBoardTypeStr>
+                    </BaseBoard>
+                    <BaseBoard oid="83886797" status="2" index="1">
+                        <BaseBoardType>13</BaseBoardType>
+                        <FeatureFlags>
+                            <HostingBoard>false</HostingBoard>
+                            <RequiresDCard>false</RequiresDCard>
+                            <Removable>true</Removable>
+                            <Replaceable>true</Replaceable>
+                            <HotSwappable>false</HotSwappable>
+                        </FeatureFlags>
+                        <Manufacturer>Dell Inc.</Manufacturer>
+                        <ServiceTag>JZ43HH2</ServiceTag>
+                        <ExpressServiceCode>43482061622</ExpressServiceCode>
+                        <BoardLocation>Slot 1b</BoardLocation>
+                        <BaseBoardTypeStr>Interconnect Board</BaseBoardTypeStr>
+                    </BaseBoard>
+                </BaseBoardList>
+            </ChassisInfo>
+        </Chassis>
+    </ChassisList>
+    <ObjStatus>1</ObjStatus>
+    <SMStatus>0</SMStatus>
+    <OMACMDNEW>0</OMACMDNEW>
+</OMA>

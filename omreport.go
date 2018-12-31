@@ -23,11 +23,11 @@ const (
 	DefaultOMReportCommandName = "omreport"
 )
 
-// OMReporter is the interface implemented by objects that gather
-// information from Dell's omreport utility.
+// An OMReporter gathers information from Dell's omreport utility.
 type OMReporter interface {
 	Report(...string) ([]byte, error)
 	Chassis() (*ChassisOutput, error)
+	ChassisInfo() (*ChassisInfoOutput, error)
 	ChassisBatteries() (*ChassisBatteriesOutput, error)
 	ChassisFans() (*ChassisFansOutput, error)
 	ChassisProcessors() (*ChassisProcessorsOutput, error)
@@ -50,7 +50,6 @@ type OMReport struct {
 	sha256Checksum []byte
 }
 
-// Config contains configurable parameters that are used to construct a new OMReporter.
 type Config struct {
 	// Full path to the omcliproxy binary.
 	OMCLIProxyPath string
@@ -145,6 +144,19 @@ func (om *OMReport) ChassisFans() (*ChassisFansOutput, error) {
 		return nil, err
 	}
 	return &out, nil
+}
+
+// ChassisInfo returns chassis information gathered from omreport.
+func (om *OMReport) ChassisInfo() (*ChassisInfoOutput, error) {
+	data, err := om.Report("chassis", "info")
+	if err != nil {
+		return nil, err
+	}
+	out := ChassisInfoOutput{}
+	if err := xml.Unmarshal(data, &out); err != nil {
+		return nil, err
+	}
+	return &out, err
 }
 
 // ChassisProcessors returns processor information gathered from omreport.

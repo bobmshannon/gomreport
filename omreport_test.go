@@ -116,6 +116,35 @@ func TestOMReport_Chassis_Unmarshal(t *testing.T) {
 	}, out)
 }
 
+func TestOMReport_ChassisInfo_Unmarshal(t *testing.T) {
+	data, err := ioutil.ReadFile("testdata/omreport-chassis-info.xml")
+	require.NoError(t, err, "Failed to read testdata.")
+
+	out := ChassisInfoOutput{}
+	err = xml.Unmarshal(data, &out)
+	require.NoError(t, err)
+	assert.Equal(t, ChassisInfoOutput{
+		ChassisList: []ChassisEntry{
+			{
+				Hostname:    "apps2.internal",
+				Model:       "PowerEdge FC430",
+				LockPresent: false,
+				ServiceTag:  "JZ31JH2",
+				FirmwareList: []FirmwareEntry{
+					{
+						Name:    "iDRAC8",
+						Version: "2.41.40.40 (Build 7)",
+					},
+					{
+						Name:    "Lifecycle Controller",
+						Version: "2.41.40.40",
+					},
+				},
+			},
+		},
+	}, out)
+}
+
 func TestOMReport_ChassisTemps_Unmarshal(t *testing.T) {
 	data, err := ioutil.ReadFile("testdata/omreport-chassis-temps.xml")
 	require.NoError(t, err, "Failed to read testdata.")
