@@ -13,7 +13,7 @@ Dell servers with OMSA versions `7.x`, `8.x`, or `9.x` installed are currently s
 
 ## Contributing
 
-### Bug reports
+## Bug reports
 
 If a bug is discovered, file a GitHub issue with the following information:
 
@@ -23,10 +23,10 @@ If a bug is discovered, file a GitHub issue with the following information:
 - Linux distribution and kernel version
 - Any other relevant information that will be useful for debugging and reproducing the problem
 
-### Features and enhancements
+## Features and enhancements
 
 Feature and enhancement requests including support for additional fields and subcommands should first be raised as a GitHub issue.
 
-### Bugfixes
+## Bugfixes
 
 Minor and trivial bugfixes can be addressed via a PR without raising a GitHub issue.
