@@ -1,7 +1,7 @@
 # gomreport [![CircleCI](https://circleci.com/gh/bobmshannon/gomreport.svg?style=svg)](https://circleci.com/gh/bobmshannon/gomreport) [![GoDoc](https://godoc.org/github.com/bobmshannon/gomreport?status.svg)](https://godoc.org/github.com/bobmshannon/gomreport) [![Go Report Card](https://goreportcard.com/badge/github.com/bobmshannon/gomreport)](https://goreportcard.com/report/github.com/bobmshannon/gomreport)
 A Go library for programmatically interacting with Dell OpenManage's omreport utility. For documentation on how to use this library, see [godoc](https://godoc.org/github.com/bobmshannon/gomreport).
 
-## Compatibillity
+## Compatibility
 
 Dell servers with OMSA versions `7.x`, `8.x`, or `9.x` installed are currently supported.
 
